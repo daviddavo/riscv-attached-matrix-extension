@@ -449,7 +449,7 @@ AME memory instructions follow RVWMO with respect to other AME memory instructio
 
 To support decoupled operation, memory transfers involving the `M` registers are unordered with respect to non-AME memory transfers.
 
-If the `Ztso` instruction is implemented, it enforces RVTSO strictly within the non-AME and AME domains respectively, but it does not enforce TSO between AME and non-AME memory instructions.
+If the `Ztso` extension is implemented, it enforces RVTSO strictly within the non-AME and AME domains respectively, but it does not enforce TSO between AME and non-AME memory instructions.
 
 Element operations are unordered within the instruction.
 
